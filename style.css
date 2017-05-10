@@ -27,6 +27,9 @@ h3 {
 	margin-left: 62%; 
 	text-align: left;
 }
+h3:hover {
+ 	border-bottom: 1px solid red
+}
 
 .treeCSS, 
 .treeCSS ul,

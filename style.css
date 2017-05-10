@@ -28,17 +28,18 @@ h3 {
 	text-align: left;
 }
 
-  <style type="text/css">
-   A:link { 
-    text-decoration: none; /* Убирает подчеркивание для ссылок */
-   } 
-   A:visited { text-decoration: none; } 
-   A:active { text-decoration: none; }
-   A:hover {
-    text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
-    color: red; /* Цвет ссылки */
-   } 
-  </style>
+<style type="text/css">
+	A:link { 
+		text-decoration: none; /* Убирает подчеркивание для ссылок */
+   		color:#000000;
+	} 
+   	A:visited { text-decoration: none; color:#000000 } 
+   	A:active { text-decoration: none; color:#000000 }
+   	A:hover {
+    		text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+    		color: red; /* Цвет ссылки */
+ 	} 
+</style>
 
 
 

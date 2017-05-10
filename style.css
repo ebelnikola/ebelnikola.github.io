@@ -28,21 +28,6 @@ h3 {
 	text-align: left;
 }
 
-<style type="text/css">
-	A:link { 
-		text-decoration: none; /* Убирает подчеркивание для ссылок */
-   		color:#000000;
-	} 
-   	A:visited { text-decoration: none; color:#000000 } 
-   	A:active { text-decoration: none; color:#000000 }
-   	A:hover {
-    		text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
-    		color: red; /* Цвет ссылки */
- 	} 
-</style>
-
-
-
 .treeCSS, 
 .treeCSS ul,
 .treeCSS li {
@@ -76,3 +61,17 @@ h3 {
   width: calc(1.1em - 1px); /* для перфекционистов */
   border-left: 2px solid #000000;
 }
+
+
+<style type="text/css">
+	A:link { 
+		text-decoration: none; /* Убирает подчеркивание для ссылок */
+   		color:#000000;
+	} 
+   	A:visited { text-decoration: none; color:#000000 } 
+   	A:active { text-decoration: none; color:#000000 }
+   	A:hover {
+    		text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+    		color: red; /* Цвет ссылки */
+ 	} 
+</style>

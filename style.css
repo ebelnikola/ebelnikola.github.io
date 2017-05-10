@@ -72,8 +72,9 @@ a:visited {
    	color:#000000;
 }
 a:hover {
- 	text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
-    	border-color: red; /* Цвет ссылки */
+ 	border-color: red;
+	text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+    	 /* Цвет ссылки */
 }
 a:active {
  	text-decoration: none; /* Убирает подчеркивание для ссылок */

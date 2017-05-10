@@ -5,7 +5,7 @@ body {
 	color: #333; /* Цвет основного текста */ 
 }
 h1 {
-	color: #A0522D; 
+	color: #000000; 
 	font-size: 20pt; 
 	font-family: Georgia, Times, serif; 
 	font-weight: normal;
@@ -63,7 +63,7 @@ a:active {
   padding: .2em 0 0 1.2em; /* отступ до текста; для раскрывающегося списка в ряде случаев (в Хроме есть баг) padding-top (.2em) лучше указывать в px */
 }
 .treeCSS li:not(:last-child) {
-  border-left: 2px solid #A0522D; /* толщина, цвет и стиль (вместо сплошной пунктирная или точечная) вертикальной линии */
+  border-left: 2px solid #000000; /* толщина, цвет и стиль (вместо сплошной пунктирная или точечная) вертикальной линии */
 }
 .treeCSS li li:before,
 .treeCSS > li:not(:only-child):before { /* горизонтальная линия */
@@ -73,9 +73,9 @@ a:active {
   left: 0;
   width: 1.1em; /* не более отступа до текста (1.2em) */
   height: .7em; /* начинается приблизительно с половины высоты буквы (.5em + .2em) */
-  border-bottom: 2px solid #A0522D;
+  border-bottom: 2px solid #000000;
 }
 .treeCSS li:last-child:before { /* вертикальная линия последнего пункта в каждом списке */
   width: calc(1.1em - 1px); /* для перфекционистов */
-  border-left: 2px solid #A0522D;
+  border-left: 2px solid #000000;
 }

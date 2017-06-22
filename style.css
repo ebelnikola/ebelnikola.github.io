@@ -20,15 +20,12 @@ h2 {
 	text-align: right;
 }
 h3 {
-	color: #A0522D; 
+	color: #000000; 
 	font-size: 12pt; 
 	font-family: Georgia, Times, serif; 
 	font-weight: normal;
 	margin-left: 62%; 
 	text-align: right;
-}
-h3:hover {
- 	border-bottom: 1px solid red
 }
 
 .treeCSS, 
